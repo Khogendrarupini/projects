@@ -1,0 +1,57 @@
+<!--
+Premium UI Loader
+A modern loading animation with progress tracking
+Created by: Khogendra Rupini
+Own by Khogendra Rupini
+Version:- v.1.1
+-->
+
+<!DOCTYPE html>
+  <html lang="en">
+     <head>
+      <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium UI Loader - Khogendra Rupini</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/document/project/code/main.css">
+</head>
+<body>
+    <div class="loader-container">
+        <div class="background-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+        
+        <div class="loader-content">
+            <div class="loader-logo">
+                <div class="logo-circle"></div>
+                <div class="logo-circle"></div>
+                <div class="logo-circle"></div>
+            </div>
+            
+            <h1 class="loader-title">Loading Dashboard</h1>
+            <p class="loader-subtitle">Preparing your personalized experience</p>
+            
+            <div class="progress-container">
+                <div class="progress-bar" id="progressBar"></div>
+            </div>
+            
+            <div class="loader-stats">
+                <span>Speed: <span id="speedStat">5.2</span> MB/s</span>
+                <span>Time remaining: <span id="timeStat">12</span>s</span>
+            </div>
+            
+            <div class="loader-details" id="loaderDetails">
+                Loading core modules...
+            </div>
+            
+            <div class="loader-actions">
+                <button class="action-btn">Background Tasks</button>
+                <button class="action-btn primary" id="priorityBtn">Priority Load</button>
+            </div>
+        </div>
+    </div>
+    <script src="/document/project/code/main.js"></script>
+</body>
+</html>
